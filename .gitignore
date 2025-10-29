@@ -36,6 +36,9 @@ build/
 *.iws
 out/
 
+# Test file
+test.java
+
 # NetBeans
 nbproject/private/
 build/
