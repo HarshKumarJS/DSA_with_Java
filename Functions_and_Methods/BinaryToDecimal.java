@@ -12,10 +12,10 @@ public class BinaryToDecimal {
         int dec = 0;    // Decimal result
 
         while (n > 0) {
-            int lastdigit = n % 10;                      // Get last binary digit
+            int lastdigit = n % 10;                       // Get last binary digit
             dec += lastdigit * (int) Math.pow(2, pow);
             pow++;
-            n /= 10;                                     // Remove last digit
+            n /= 10;                                      // Remove last digit
         }
 
         System.out.println("The decimal number of " + mynum + " is " + dec);
