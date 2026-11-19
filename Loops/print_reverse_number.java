@@ -1,6 +1,6 @@
 // This program reverses and prints the digits of a given number
 
-public class reverse_a_number {
+public class print_reverse_number {
     public static void main(String[] args) {
 
         // Initialize the number to be reversed
