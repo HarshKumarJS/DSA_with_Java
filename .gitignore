@@ -32,6 +32,7 @@ build/
 
 # IntelliJ IDEA
 .idea/
+.junie
 *.iml
 *.iws
 out/
@@ -57,3 +58,6 @@ nbdist/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Directory Folder
+Practice/*
